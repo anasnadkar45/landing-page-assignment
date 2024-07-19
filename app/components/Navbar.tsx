@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Logo from '../../public/Logo.png'
+import UserNav from './UserNav'
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <div>
                     <Image src={Logo} alt='Website Logo' width={60} height={80} />
                 </div>
-                <div>
+                <div className='hidden md:flex'>
                     <ul className='flex text-[#E4E6F2] gap-8'>
                         <li>About</li>
                         <li>Services</li>
@@ -19,10 +20,13 @@ const Navbar = () => {
                         <li>FAQs</li>
                     </ul>
                 </div>
-                <div>
+                <div className='hidden md:flex'>
                     <button>
                         Book a call
                     </button>
+                </div>
+                <div className='flex md:hidden'>
+                    <UserNav />
                 </div>
             </div>
         </div>
