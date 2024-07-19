@@ -21,7 +21,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:flex'>
-                    <button>
+                    <button className='button1'>
                         Book a call
                     </button>
                 </div>

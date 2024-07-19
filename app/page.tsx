@@ -11,7 +11,7 @@ export default function Home() {
         <p className="text-[#C0C2CC]">Finding new horizons for visionaries to accelerate their innovation and progress.</p>
         <div className="flex gap-6">
           <PrimaryButton title={"Explore Our Service"} />
-          <button >Learn More</button>
+          <button className="button1">Learn More</button>
         </div>
       </div>
 
