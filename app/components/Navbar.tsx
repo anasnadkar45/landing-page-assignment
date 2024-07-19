@@ -5,7 +5,7 @@ import UserNav from './UserNav'
 
 const Navbar = () => {
     return (
-        <div className='bg-[#0d0d0d] backdrop-filter backdrop-blur-lg bg-opacity-50 z-20 py-[10px]'>
+        <div className='bg-[#0d0d0d] backdrop-filter backdrop-blur-lg bg-opacity-50 z-20 py-[10px] px-3'>
             <div className='max-w-[1080px] mx-auto flex justify-between items-center sm:px-3 md:5px'>
                 <div>
                     <Image src={Logo} alt='Website Logo' width={60} height={80} />
